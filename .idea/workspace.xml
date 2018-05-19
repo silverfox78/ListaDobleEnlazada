@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db25126-ba02-474d-b318-b3245ee621c3" name="Default" comment="" />
+    <list default="true" id="1db25126-ba02-474d-b318-b3245ee621c3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pila.java" afterPath="$PROJECT_DIR$/src/main/java/Pila.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PilaTest.java" afterPath="$PROJECT_DIR$/src/test/java/PilaTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PilaTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PilaTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PilaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+            <state relative-caret-position="229">
+              <caret line="261" column="56" lean-forward="true" selection-start-line="261" selection-start-column="56" selection-end-line="261" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#inicio#0;class#PilaTest#0" expanded="false" />
@@ -36,7 +39,6 @@
                 <element signature="method#validaNodoAsignaSiguiente#0;class#PilaTest#0" expanded="false" />
                 <element signature="method#validaNodoAsignaAnterior#0;class#PilaTest#0" expanded="false" />
                 <element signature="method#validaNodoValorAnteriorSiguiente#0;class#PilaTest#0" expanded="false" />
-                <element signature="method#pilaValidaInsertaPrimerElemento#0;class#PilaTest#0" expanded="false" />
                 <element signature="method#pilaValidaInsertaDosElemento#0;class#PilaTest#0" expanded="false" />
                 <element signature="method#pilaValidaInsertaTresElemento#0;class#PilaTest#0" expanded="false" />
                 <element signature="method#pilaValidaEliminaDePilaVacia#0;class#PilaTest#0" expanded="false" />
@@ -56,15 +58,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pila.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pila.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pila.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="92" column="5" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="365">
+              <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
               <folding>
                 <element signature="method#push#0;class#Pila#0" expanded="false" />
                 <element signature="method#pop#0;class#Pila#0" expanded="false" />
                 <element signature="method#pop#1;class#Pila#0" expanded="false" />
+                <element signature="method#pop#2;class#Pila#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,6 +81,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -367,8 +373,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/StackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Nodo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PilaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pila.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PilaTest.java" />
       </list>
     </option>
   </component>
@@ -383,6 +389,7 @@
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -592,14 +599,11 @@
       <updated>1526134479681</updated>
       <workItem from="1526134485417" duration="2056000" />
       <workItem from="1526686622577" duration="75000" />
-      <workItem from="1526735967949" duration="6904000" />
+      <workItem from="1526735967949" duration="8107000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PilaTest - 2018.05.19 at 11h 26m 22s.xml">
-      <configuration name="PilaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PilaTest - 2018.05.19 at 11h 27m 16s.xml">
       <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
@@ -627,9 +631,12 @@
     <history-entry file="PilaTest - 2018.05.19 at 11h 41m 39s.xml">
       <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PilaTest - 2018.05.19 at 12h 16m 49s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9035000" />
+    <option name="totallyTimeSpent" value="10238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -643,8 +650,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -674,7 +681,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -692,7 +699,6 @@
             <element signature="method#validaNodoAsignaSiguiente#0;class#PilaTest#0" expanded="false" />
             <element signature="method#validaNodoAsignaAnterior#0;class#PilaTest#0" expanded="false" />
             <element signature="method#validaNodoValorAnteriorSiguiente#0;class#PilaTest#0" expanded="false" />
-            <element signature="method#pilaValidaInsertaPrimerElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaInsertaDosElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaInsertaTresElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaEliminaDePilaVacia#0;class#PilaTest#0" expanded="false" />
@@ -719,6 +725,7 @@
             <element signature="method#push#0;class#Pila#0" expanded="false" />
             <element signature="method#pop#0;class#Pila#0" expanded="false" />
             <element signature="method#pop#1;class#Pila#0" expanded="false" />
+            <element signature="method#pop#2;class#Pila#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,7 +753,6 @@
             <element signature="method#validaNodoAsignaSiguiente#0;class#PilaTest#0" expanded="false" />
             <element signature="method#validaNodoAsignaAnterior#0;class#PilaTest#0" expanded="false" />
             <element signature="method#validaNodoValorAnteriorSiguiente#0;class#PilaTest#0" expanded="false" />
-            <element signature="method#pilaValidaInsertaPrimerElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaInsertaDosElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaInsertaTresElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaEliminaDePilaVacia#0;class#PilaTest#0" expanded="false" />
@@ -773,6 +779,7 @@
             <element signature="method#push#0;class#Pila#0" expanded="false" />
             <element signature="method#pop#0;class#Pila#0" expanded="false" />
             <element signature="method#pop#1;class#Pila#0" expanded="false" />
+            <element signature="method#pop#2;class#Pila#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,10 +802,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+          <folding>
+            <element signature="method#push#0;class#Pila#0" expanded="false" />
+            <element signature="method#pop#0;class#Pila#0" expanded="false" />
+            <element signature="method#pop#1;class#Pila#0" expanded="false" />
+            <element signature="method#pop#2;class#Pila#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PilaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="261" column="56" lean-forward="true" selection-start-line="261" selection-start-column="56" selection-end-line="261" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#inicio#0;class#PilaTest#0" expanded="false" />
@@ -808,7 +828,6 @@
             <element signature="method#validaNodoAsignaSiguiente#0;class#PilaTest#0" expanded="false" />
             <element signature="method#validaNodoAsignaAnterior#0;class#PilaTest#0" expanded="false" />
             <element signature="method#validaNodoValorAnteriorSiguiente#0;class#PilaTest#0" expanded="false" />
-            <element signature="method#pilaValidaInsertaPrimerElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaInsertaDosElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaInsertaTresElemento#0;class#PilaTest#0" expanded="false" />
             <element signature="method#pilaValidaEliminaDePilaVacia#0;class#PilaTest#0" expanded="false" />
@@ -823,18 +842,6 @@
             <element signature="method#pilaValidaEliminaPosicionTresListaDeTresElementos#0;class#PilaTest#0" expanded="false" />
             <element signature="class#Valor#0;class#PilaTest#0" expanded="false" />
             <element signature="class#Esperado#0;class#PilaTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pila.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="92" selection-end-column="5" />
-          <folding>
-            <element signature="method#push#0;class#Pila#0" expanded="false" />
-            <element signature="method#pop#0;class#Pila#0" expanded="false" />
-            <element signature="method#pop#1;class#Pila#0" expanded="false" />
           </folding>
         </state>
       </provider>

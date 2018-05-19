@@ -250,6 +250,19 @@ public class PilaTest {
         assertEquals(retorno, this.nodoTres);
     }
 
+    @Test
+    @Category({InstanciaPilaTest.class, InstanciaPilaAgregarTest.class, InstanciaPilaAgregarPosicionTest.class})
+    public void pilaValidaInsertaPosicionUnoListaVacia(){
+        this.pila.push(Valor.Zero.getNumero(), this.nodoUno);
+        assertEquals(this.pila.getPrimero(), this.nodoUno);
+        assertEquals(this.pila.getUltimo(), this.nodoUno);
+        assertEquals(this.pila.getCantidad(), Esperado.Uno.getNumero());
+        assertNull(this.pila.getPrimero().getAnterior());
+        assertNull(this.pila.getPrimero().getSiguiente());
+        assertNull(this.pila.getUltimo().getAnterior());
+        assertNull(this.pila.getUltimo().getSiguiente());
+    }
+
     private enum Valor{
         Zero(0),
         Uno(1),
@@ -287,6 +300,8 @@ public class PilaTest {
     public interface InstanciaPilaTest {}
 
     public interface InstanciaPilaAgregarTest {}
+
+    public interface InstanciaPilaAgregarPosicionTest {}
 
     public interface InstanciaPilaEliminarTest {}
 

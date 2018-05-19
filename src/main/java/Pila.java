@@ -91,4 +91,16 @@ public class Pila {
             return pop(posicion - 1, nodo.getSiguiente());
         }
     }
+
+    public void push(int posicion, Nodo nodo) {
+        if(this.cantidad == 0){
+            this.push(nodo);
+        } else {
+            this.pushPosicion(posicion, nodo);
+        }
+    }
+
+    private void pushPosicion(int posicion, Nodo nodo) {
+    
+    }
 }
